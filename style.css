@@ -1,0 +1,77 @@
+body{
+  background-color:#2a2a2a  ;
+  text-align: center;
+  font-family: futura;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+}
+.nom{
+  color: white;
+}
+a {
+  color: black;
+  font-size: 24;
+}
+a:hover{
+  font-size: 1.8em;
+  transition: font-size 0.2s ease-in-out;
+}
+.container{
+  margin: 100px;
+  /* border: solid 1px black; */
+}
+.card{
+  padding: 10px;
+  background-color:  white;
+  box-shadow: 5px 7px 10px black;
+  border-radius: 10px;
+}
+.title-card{
+  padding: 10px;
+  background-color:  white;
+  box-shadow: 5px 7px 10px black;
+  border-radius: 10px;
+}
+.button-card{
+  padding: 10px;
+  background-color:  white;
+  box-shadow: 5px 7px 10px black;
+  border-radius: 10px;
+}
+.list-card{
+  padding: 10px;
+  background-color:  white;
+  box-shadow: 5px 7px 10px black;
+  border-radius: 10px;
+}
+.container titre{
+  width:100px;
+  text-align: center;
+}
+.list-none {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
